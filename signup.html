@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Create Your Account</title>
+</head>
+<body>
+
+    <!-- Main content area -->
+    <main>
+        <!-- 
+            Signup Container 
+            Note: Centering and "Card" styling require CSS. 
+            This section represents the structural container for the signup card.
+        -->
+        <section>
+            
+            <!-- Logo and Header Section -->
+            <header>
+                <div>
+                    <!-- Logo placeholder -->
+                    <strong>BrandLogo</strong>
+                </div>
+                <h1>Create Account</h1>
+                <p>Join our community today! Please provide your details below to get started.</p>
+            </header>
+
+            <!-- Sign Up Form -->
+            <form action="#" method="POST">
+                
+                <!-- Full Name Input -->
+                <div>
+                    <label for="full-name">Full Name</label><br>
+                    <input 
+                        type="text" 
+                        id="full-name" 
+                        name="full-name" 
+                        placeholder="Enter your full name" 
+                        required 
+                        aria-required="true">
+                </div>
+
+                <br>
+
+                <!-- Email Input -->
+                <div>
+                    <label for="email">Email Address</label><br>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="example@email.com" 
+                        required 
+                        aria-required="true">
+                </div>
+
+                <br>
+
+                <!-- Password Input -->
+                <div>
+                    <label for="password">Password</label><br>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        placeholder="Create a strong password" 
+                        required 
+                        aria-required="true">
+                </div>
+
+                <br>
+
+                <!-- Confirm Password Input -->
+                <div>
+                    <label for="confirm-password">Confirm Password</label><br>
+                    <input 
+                        type="password" 
+                        id="confirm-password" 
+                        name="confirm-password" 
+                        placeholder="Repeat your password" 
+                        required 
+                        aria-required="true">
+                </div>
+
+                <br>
+
+                <!-- Terms and Conditions Checkbox -->
+                <div>
+                    <input 
+                        type="checkbox" 
+                        id="terms" 
+                        name="terms" 
+                        required 
+                        aria-required="true">
+                    <label for="terms">I agree to the Terms & Conditions and Privacy Policy</label>
+                </div>
+
+                <br>
+
+                <!-- Submit Button -->
+                <div>
+                    <button type="submit">Sign Up</button>
+                </div>
+
+            </form>
+
+            <!-- Divider Section -->
+            <div>
+                <hr>
+                <p>OR</p>
+            </div>
+
+            <!-- Third Party Integration Section -->
+            <div>
+                <button type="button">Sign up with Google</button>
+            </div>
+
+            <!-- Footer / Login Redirect -->
+            <footer>
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </footer>
+
+        </section>
+    </main>
+
+</body>
+</html>
